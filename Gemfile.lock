@@ -53,8 +53,11 @@ GEM
     mime-types (1.25.1)
     minitest (5.5.1)
     multi_json (1.11.0)
+<<<<<<< HEAD
     mysql2 (0.3.18)
     pg (0.18.1)
+=======
+>>>>>>> 581867b766353f7f636eb0dd1815d8b5d6431b8c
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.3)
@@ -119,8 +122,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   minitest
-  mysql2
-  pg
   rails (= 4.1.4)
   rake (~> 0.9.6)
   sass-rails (~> 4.0.3)
