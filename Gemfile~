@@ -31,8 +31,9 @@ group :production, :postgresql do
   gem 'pg'
 end
 
-### / OpenShift changes
 
+### / OpenShift changes
+#gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

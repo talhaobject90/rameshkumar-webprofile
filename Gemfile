@@ -23,17 +23,17 @@ group :development, :test do
 end
 
 #Add support for the MySQL
-group :production, :mysql do
+#group :production, :mysql do
   gem 'mysql2'
-end
+#end
 
-group :production, :postgresql do
-  gem 'pg'
-end
+#group :production, :postgresql do
+ # gem 'pg'
+#end
 
 
 ### / OpenShift changes
-gem 'mysql2'
+#gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
